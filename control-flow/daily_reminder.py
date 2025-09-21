@@ -14,5 +14,6 @@ match priority:
 
 if time_bound == "yes":
     reminder += " This task requires immediate attention today!"
-
+else:
+    print(f" Note: {priority} is a low priority task. consider competing it when you have free time.")
 print(reminder)
